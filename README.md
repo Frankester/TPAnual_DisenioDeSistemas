@@ -1,6 +1,7 @@
 # DDS_Grupo3_2024_TPA
 
-El actual repositorio es un trabajo práctico anual de la metria Diseño de sistemas y es un Sistema para la Mejora del Acceso en Contextos de Vulnerabilidad Socioeconómica. El sistema esta desarrollado en Java mediante el uso de Javalin y handlebars, y como motor de base de datos MYSql.
+El actual repositorio es un trabajo práctico anual de la metria Diseño de sistemas y es un Sistema para la Mejora del Acceso en Contextos de Vulnerabilidad Socioeconómica. El sistema esta desarrollado en Java mediante el uso de Javalin y Mustache, y como motor de base de datos MYSql. 
+El proyecto posee obserbaviliad mediante el uso de prometeus y grafana.
 
 ## Observabilidad 
 
