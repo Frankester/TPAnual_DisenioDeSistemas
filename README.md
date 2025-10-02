@@ -1,7 +1,32 @@
-# DDS_Grupo3_2024_TPA
+# Trabajo práctico anual Diseño de Sistemas
 
-El actual repositorio es un trabajo práctico anual de la metria Diseño de sistemas y es un Sistema para la Mejora del Acceso en Contextos de Vulnerabilidad Socioeconómica. El sistema esta desarrollado en Java mediante el uso de Javalin y Mustache, y como motor de base de datos MYSql. 
-El proyecto posee obserbaviliad mediante el uso de prometeus y grafana.
+Este repositorio corresponde al **Trabajo Práctico Anual (TPA)** de la materia **Diseño de Sistemas**.  
+El proyecto consiste en un **Sistema para la Mejora del Acceso Alimentario en Contextos de Vulnerabilidad Socioeconómica**, desarrollado en **Java** utilizando **Javalin** como framework web, **Mustache** para el renderizado de vistas y **MySQL** como motor de base de datos. Además, el sistema cuenta con **observabilidad** de métricas mediante la integración con **Prometheus** y **Grafana**.
+
+## Equipo de trabajo
+
+| Nombre | Contacto |
+|--------|---------------------------|
+| Franco Callero | fcallero@frba.utn.edu.ar |
+| Felipe Alborch De Guzman | falborchdeguzman@frba.utn.edu.ar |
+| Mora Hidalgo | mohidalgo@frba.utn.edu.ar |
+| Tomás Francou | tfernndezfrancou@frba.utn.edu.ar |
+| Tomás Watson | twatson@frba.utn.edu.ar |
+
+## Video demostrativo
+[Ver video explicativo y demo del sistema](https://drive.google.com/file/d/1yfd7Edm6xTKeaUdNtwGrxW7-nEMhjcqs/view?usp=sharing)
+
+## 📂 Documentación
+
+En la carpeta **`Documentacion/`** se encuentran los documentos generados durante el desarrollo del TP, incluyendo:
+- Diagrama de casos de uso
+- Diagrama de clase
+- Diagramas de secuencia
+- Diagramas de componentes y despliegue
+- Diagrama de entidad Relacion (DER)
+- Especificación de la api del servicio de atención médica
+- Justificaciones de diseño
+- Enunciado del TP con los requerimientos del sistema
 
 ## Observabilidad 
 
@@ -39,9 +64,11 @@ scrape_configs:
 5. click en save and test
 6. Luego ir a Explore y usar
 
-
 ``Nota: antes descargar grafana e iniciar Prometheus``
 ### Metricas
 - <b>http_server_requests_seconds_count</b> : cantidad de requests a ese endpoint
 - <b>http_server_requests_seconds_sum</b> : suma de segundos en ejecutar todos los request a ese endpoint
 - <b>http_server_requests_seconds_max</b> : duración en segundos, que tardo en ejecutar el request que mas tardó en ese endpoint
+
+## Licencia
+Este proyecto fue desarollado con fines académicos en el marco de la materia Diseño de Sistemas (dentro de la carrea de ingeniería en sistemas de información).
